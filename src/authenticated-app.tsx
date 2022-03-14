@@ -1,3 +1,4 @@
+import styled from "@emotion/styled"
 import { Button } from "antd";
 import { useAuth } from "context/auth-context"
 import { ProjectListScreen } from "screen/project-list"
@@ -9,3 +10,7 @@ export const AuthenticatedApp = () => {
         <ProjectListScreen />
     </div>
 }
+
+const PageHeader = styled.header`
+
+`
